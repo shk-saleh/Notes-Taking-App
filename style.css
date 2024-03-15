@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+
+    /* background: linear-gradient(to right,#46a176, #2b4b86); */
+    background: linear-gradient(to right,#bfffe1, #acc9fd);
+
+}
+
+.container{
+
+    margin: 7rem 0 0 7rem;
+    /* border: 2px solid black; */
+    width: 60vh;
+    height: 60vh;
+}
+
+.notes-app h1{
+
+    color: #21355c;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.notes-app h1 i{
+    
+    font-size: 2.8rem;
+    color: #21355c;
+    margin-right: 0.2rem;
+}
+
+.Add-btn{
+
+    padding: 0.8rem 2rem;
+    font-size: 1.0rem;
+    margin: 2rem 0;
+    border-radius: 1.8rem;
+    border: none;
+    color: white;
+    background: linear-gradient(to right,#4c9c77, #5471a7);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+.Add-btn:hover{
+
+    box-shadow: 4px 2px 9px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.Add-btn i{
+
+    margin-right: 0.4rem;
+}
+
+.notes-input{
+    position: relative;
+    padding: 1rem;
+    max-width: 27rem;
+    min-height: 9rem;
+    background: white;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    box-shadow: 4px 2px 9px rgba(0, 0, 0, 0.2);
+}
+
+.notes-input:active,
+.notes-input:focus{
+
+    border: none;
+    outline: none;
+
+}
+
+.notes-input img{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    padding: 0 0.7rem 0.5rem 1rem;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.notes-input img:hover{
+    transition: all .3s;
+    opacity: 1;
+}
