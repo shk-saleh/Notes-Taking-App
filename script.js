@@ -23,6 +23,16 @@ function StoreData(){
 
 // Adding eventlistner on add button
 
+const validPages = ["notes-taking-app"]; // Add all valid paths here
+
+// Get the current URL path
+const currentPath = window.location.pathname;
+
+// Check if the current path is valid
+if (!validPages.includes(currentPath)) {
+    // Redirect to the 404 page
+    window.location.href = "/404.html";
+}
 addBtn.addEventListener("click",()=>{
 
     let inputBox = document.createElement("p");
