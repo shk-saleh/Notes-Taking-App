@@ -23,7 +23,7 @@ function StoreData(){
 
 // Adding eventlistner on add button
 
-const validPages = ["notes-taking-app"]; // Add all valid paths here
+const validPages = ["/Notes-Taking-App"]; // Add all valid paths here
 
 // Get the current URL path
 const currentPath = window.location.pathname;
